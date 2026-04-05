@@ -17,7 +17,7 @@ body {
     align-items: center;
     flex-flow: column;
     gap: 10%;
-    background: url(/assets/sprites/startpagebackground.gif) no-repeat top;
+    background: url(./assets/sprites/startpagebackground.gif) no-repeat top;
     background-size: cover;
 }
 #logowild {
