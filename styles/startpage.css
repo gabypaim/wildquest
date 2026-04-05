@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    image-rendering: pixelated;
+}
+
+body,html {
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 10%;
+    background: url(/assets/sprites/startpagebackground.gif) no-repeat top;
+    background-size: cover;
+}
+#logowild {
+    width: 40vw;
+}
+
+#startwild {
+    width: 12vw;
+}
+
+#startwild:hover {
+    transition: transform 0.5s ease;
+    transform: scale(0.95);
+  
+}
